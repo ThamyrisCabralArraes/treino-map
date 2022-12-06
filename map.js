@@ -33,3 +33,11 @@ let listaObjeto = listaArray.map((email) => {
   };
 });
 console.log(listaObjeto);
+
+//
+
+const par = array
+  .filter((numero) => numero % 2 === 0)
+  .map((numero) => numero * 3);
+
+console.log(par);
